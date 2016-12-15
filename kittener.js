@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       Make America Kitten Again
+// @name       Make America Kittener Again
 // @version    0.1
 // @description  Based on https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm
 // @require http://code.jquery.com/jquery-latest.js
