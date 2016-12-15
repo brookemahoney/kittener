@@ -2,7 +2,6 @@
 // @name       Make America Kittener Again
 // @version    0.1
 // @description  Based on https://chrome.google.com/webstore/detail/make-america-kittens-agai/klchnmggepghlcolikgaekpibclpmgcm
-// @require http://code.jquery.com/jquery-latest.js
 // @include      htt*://*
 // ==/UserScript==
 
@@ -201,6 +200,7 @@ function detrump(theKittens) {
 }
 
 var trumpereplace = function() {
+  document.body.innerHTML = document.body.innerHTML.replace(/trump/ig, 'The Douchebag Cat');
   $('body').html($('body').html().replace(/trump/ig, 'The Douchebag Cat'));
 };
 
